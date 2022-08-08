@@ -49,3 +49,8 @@ footer{height: 10rem;
 }
 
 #contato{margin-left: 0px;}
+
+ @media (max-width: 476px){
+    ul{margin-right: 0px;}
+    .mayone {margin-left:1rem !important; }
+ }
