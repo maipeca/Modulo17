@@ -6,10 +6,6 @@ nav, h2 {
     
 }
 
-h1 { 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 
 .card { 
     width: 100%;
@@ -19,7 +15,6 @@ h1 {
 
 ul { 
     margin-right: 5rem;
-    
 }
 
 
@@ -43,4 +38,14 @@ textarea.form-control {
 }
 
 
-footer{height: 10rem;}
+footer{height: 10rem;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+
+    overflow: hidden;
+}
+
+#contato{margin-left: 0px;}

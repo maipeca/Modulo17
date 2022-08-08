@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Bootstrap2</title>
+  <title>Bootstrap</title>
 </head>
 
 <body>
@@ -15,8 +15,8 @@
   <header>
     <nav class="navbar" style="background: #e7ded9" ;>
       <div class="container-fluid">
-        <img src="./images/logo.png" alt="arrows" style="margin-left:5rem ; ">
-        <h1 class="text-center">Mayone</h1>
+        <img src="./images/logo.svg" alt="arrows" style="margin-left:5rem; height: 120px;width: 120px; ">
+        
         <ul class="nav justify-content-end">
           <li class="nav-item active"><a class="nav-link active" href="#">Home</a> </li>
           <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a> </li>
@@ -37,7 +37,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="ratio ratio-21x9">
-            <img src="./images/shoerest.jpg" class="d-block w-100" alt="on the bed">
+            <img src="./images/sear.jpg" class="d-block w-100" alt="on the bed">
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h5>Si você sabe</h5>
@@ -59,7 +59,7 @@
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h5>Tem sabor</h5>
-            <p>De LIBERTADE</p>
+            <p><b> LIBERTADE</b></p>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@
 
 
   <!-- CONTATO FORMULARIO-->
-  <section id="cadastro">
+  <section id="contato">
     <div class="container">
       <div class="row">
 
@@ -173,7 +173,7 @@
 
             <div class="col">
               <div class="input-group">
-                <input class="form-control" type="text" name="email" placeholder="digite seu email" required>
+                <input class="form-control" type="email" name="email" placeholder="digite seu email" required>
               </div>
             </div>
           </div>
@@ -199,14 +199,20 @@
                 <option value="mg">MG</option>
               </select>
             </div>
+
+           
+            <div class="row">
             <div class="col">
               <label for="cep" class="col-form-label col-form-label-sm">CEP</label>
-              <input type="text" name="cep" id="cep" class="form-control" required>
+              <input type="tel" pattern="[0-9]{5}[0-9]{3}" name="cep" id="cep" class="form-control" required>
+             
             </div>
             <div class="col">
               <label for="cidade" class="col-form-label col-form-label-sm">Cidade</label>
               <input type="text" name="cidade" id="cidade" class="form-control" required>
             </div>
+          </div>
+            
           </div>
 
           <div class="row">
@@ -216,7 +222,7 @@
             </div>
             <div class="col">
               <label for="telefone" class="col-form-label col-form-label-sm">Telefone</label>
-              <input type="text" name="telefone" id="telefone" class="form-control" required>
+              <input type="tel"  pattern="[0-9]{3}[0-9]{3}[0-9]{3}" name="telefone" id="telefone" class="form-control" required>
             </div>
           </div>
 
@@ -445,7 +451,7 @@
   <!--FOOTER  -->
   <footer>
     <div class="text-center p-4" style="background: #e7ded9;">
-      © 2022 Copyright Desenvolvido por Maite
+      <i class="fa fa-copyright" aria-hidden="true"></i>2022 Copyright Desenvolvido por Maite
     </div>
 
   </footer>
