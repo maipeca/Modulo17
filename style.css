@@ -52,5 +52,7 @@ footer{height: 10rem;
 
  @media (max-width: 476px){
     ul{margin-right: 0px;}
-    .mayone {margin-left:1rem !important; }
+    .mayone {margin-left:1rem !important;}
+    .form-check{ display:flex;padding: 0; margin: 0;}
+
  }
