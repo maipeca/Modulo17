@@ -3,9 +3,21 @@
 
 nav, h2 { 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
+.navbar{align-items: center;
+    justify-content: center;
+    width: 100%;}
+
+.navbar>.container-fluid {
+    
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+.nav-link{color: black; text-transform: capitalize;}
 
 .card { 
     width: 100%;
@@ -13,14 +25,14 @@ nav, h2 {
     margin: 5px;
 }
 
-ul { 
-    margin-right: 5rem;
-}
-
+.nav-item{justify-content: center;}
 
 section {
     margin: 3rem;
 }
+
+#sobre{background-color: #e7ded9; margin: 3rem 0; padding: 3rem;}
+
 
 
 h2 {
@@ -38,8 +50,7 @@ textarea.form-control {
 }
 
 
-footer{height: 10rem;
-}
+
 
 .carousel-item img {
     object-fit: cover;
@@ -48,11 +59,14 @@ footer{height: 10rem;
     overflow: hidden;
 }
 
-#contato{margin-left: 0px;}
+#contato{margin: 3rem 0; background-color:#fbfefb;}
 
  @media (max-width: 476px){
-    ul{margin-right: 0px;}
-    .mayone {margin-left:1rem !important;}
     .form-check{ display:flex;padding: 0; margin: 0;}
+    .navbar>.container-fluid{margin: 2rem;}
+    .nav-link{font-size: 12px;}
 
  }
+
+ @media (max-width: 370px){.nav-link{padding: 4px;}
+}
