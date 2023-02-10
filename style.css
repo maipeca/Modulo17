@@ -14,11 +14,20 @@ nav, h2 {
         text-align: center;
         display: block;
         width: 100%;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
+
 
 .nav-link{color: black; text-transform: capitalize;}
 
+.carousel-caption{
+    background-color: #fffdf4a2;
+    color: black;
+    padding-bottom: 0px;
+   
+
+   
+}
 .card { 
     width: 100%;
     float: left;
@@ -49,14 +58,20 @@ textarea.form-control {
     width: 100% !important;
 }
 
-
+iframe{margin-top: 5 rem; width:  80%;}
 
 
 .carousel-item img {
     object-fit: cover;
     object-position: center;
-
     overflow: hidden;
+}
+
+.carousel-caption {
+    
+    right: 25%;
+    left: 26%;
+    
 }
 
 #contato{margin: 3rem 0; background-color:#fbfefb;}
